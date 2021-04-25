@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding:0;
+}
+.div0{
+    margin-left:200px;
+    margin-top: 20px;
+    
+}
+
+
+.div0 p{
+    color: red;
+    font-weight:650;
+}
+
+.div1{
+   
+
+}
+
+.div2{
+float:left;
+}
+.div2 p{
+    color:rgba(32, 31, 34, 0.561);
+    font-weight:600;
+}
+
+.div3{
+    float:left;
+    margin-left:100px;
+    margin-top: 30px;
+    
+
+}
+
+.div3 Button{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-size:20px;
+    border:0;
+}
+
+.div3 Button:hover{
+background-color: rgb(200, 43, 43);
+color:rgb(241, 232, 232);
+font-size:22px;
+}

@@ -1,0 +1,61 @@
+/*==================Team=============*/
+*{
+    margin:0;
+    padding:0;
+  }
+#team a {
+    color: red;
+  }
+  #team a:hover{
+  color: rgb(219, 21, 120);
+  }
+  #team .name{
+  color: #F40000;
+  }
+  .p-4 {
+    /* padding: 1.5rem!important; */
+    padding-right: 1px !important;
+    padding-top: 10px !important;
+  
+  }
+  .info-team{
+  padding: 0 100px !important;
+  }
+  #team .card-body:hover{
+  -webkit-box-shadow: 4px 10px 25px 3px rgba(199, 169, 199, 0.63);
+    -moz-box-shadow: 4px 10px 25px 3px rgba(199, 169, 199, 0.63);
+    box-shadow: 4px 10px 25px 3px rgba(199, 169, 199, 0.63);
+  
+  }
+  
+  #team .card-body{
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  
+  }
+  .ta {
+    text-align: center;
+    padding: .5rem;
+  }
+  
+  #team .fa {
+  font-size: 25px;
+  color: #F40000 !important;
+  }
+  
+  #team .card-body2:hover {-webkit-box-shadow: -4px 10px 25px 3px rgba(199, 169, 199, 0.63);
+    -moz-box-shadow: -4px 10px 25px 3px rgba(199, 169, 199, 0.63);
+    box-shadow: -4px 10px 25px 3px rgba(199, 169, 199, 0.63); }
+  #team .card:hover .fa {
+    color: red; }
+  .team-name{
+    color: #F40000 !important;
+    font-weight: bold;
+  }
+  .team{
+    font-family: sans-serif;
+  }
+  
+  

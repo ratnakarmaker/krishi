@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dash_nav{
+    background: rgb(194, 223, 223);
+    margin-bottom: 1rem;
+}
+/* @media (max-width: 991px){
+    .container{
+        position: relative;
+        top: 88px;
+        padding-left: 0;
+    }
+} */
+
+.form-header {
+    display: flex;
+}
+
+@media (max-width: 991px){
+    .form-header{
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+}
+.header-button{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+@media (max-width: 991){
+    .header-button {
+        margin-top: 30px;
+        width: 100%;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+.account-wrap {
+    position: relative;
+}
+
+.account-item {
+    cursor: pointer;
+}
+
+.menue-logo {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    height:50px;
+}
+
+.account-item .image {
+    width: 45px;
+    height: 45px;
+    float: left;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 3px;
+}
+
+.account-item>.content {
+    margin-left: 45px;
+    padding: 9px 0;
+    padding-left: 12px;
+}
+
+.account-item>.content>h3 {
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.account-item  image {
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+@media screen and (max-width:991px) {
+    .dash_nav_head h5 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .dash_nav_head h5 {
+        font-size: 16px;
+    }
+}

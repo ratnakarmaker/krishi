@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+
+}
+.carousel .slide{
+    height: 80vh;
+}
+.carousel .slide img{
+ max-height: 100%;
+ width: 100%;
+}
+.image{
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+}
+ 
+.thumb img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    
+}
+
+.thumb:hover {
+    border: 3px solid rgb(226, 14, 14) !important;
+}
+
+.thumb {
+    border-radius: 50% ;
+}
+
+.thumb img:hover {
+    border: 0px !important; 
+}
+
+.img_txt {
+    margin-bottom: 35px !important;
+    padding-bottom: 35px !important;
+    position: relative;
+    bottom: 40%;
+    color: white;
+    
+}
+
+
+.image img {
+    filter: brightness(70%);
+    margin-bottom: 150px;
+}
+
+
+@media only screen and (max-width:1200px){
+    .carousel{
+        height: 80vh;
+    }
+    .carousel .slide img{
+        margin: 10vh auto !important;
+        width: 100vw;
+    }
+    .img_txt {
+        bottom: 70%;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .carousel{
+        height: 70vh;
+    }
+    .img_txt {
+        bottom: 60%;
+    }
+   
+}
+
+@media only screen and (max-width:785px){
+    .carousel{
+        height: 60vh;
+    }
+   
+}
+
+@media only screen and (max-width:650px){
+    .carousel{
+        height: 50vh;
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    .carousel{
+        height: 40vh;
+    }
+    
+}
